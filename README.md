@@ -1,3 +1,5 @@
+## João Capinha
+
 ## Pitch
 
 Results-driven Scrum Product Owner with 6+ years of steering data platforms and
