@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Blog | João Capinha's Page</title>
-    <link rel="stylesheet" href="/assets/css/style.css?v=13addfe7733bcefadb4a3c25f326a56c254a3e78">
+    <link rel="stylesheet" href="/assets/css/style.css?v=ee707dcfdee7200172fbf1891d63ce14bcc0ba11">
     <style>
         body {
             margin: 0;
@@ -105,11 +105,125 @@
         </nav>
         <div class="content">
             <h1>Blog</h1>
-            <h1 id="recent-posts">Recent Posts</h1>
+            <div class="blog-timeline">
+    
+    <article class="timeline-entry">
+        <div class="timeline-content">
+            <time class="date">October 15, 2025</time>
+            <h2 class="title"><a href="/blog/2025/10/15/sample.html">Sample Blog Post</a></h2>
+            <div class="excerpt">
+                <p>This is a sample blog post for Minimal Mistakes.</p>
 
-<p>Coming soon! This is where I’ll share my thoughts and experiences about:</p>
+            </div>
+            <a href="/blog/2025/10/15/sample.html" class="read-more">Read More →</a>
+        </div>
+    </article>
+    
+    <article class="timeline-entry">
+        <div class="timeline-content">
+            <time class="date">October 15, 2025</time>
+            <h2 class="title"><a href="/2025/10/15/aws-data-engineering.html">Building Scalable Data Pipelines on AWS: Lessons Learned</a></h2>
+            <div class="excerpt">
+                In this post, I share my experience building and optimizing data pipelines on AWS, including best practices for performance, cost optimization, and maintainability.
+            </div>
+            <a href="/2025/10/15/aws-data-engineering.html" class="read-more">Read More →</a>
+        </div>
+    </article>
+    
+    <article class="timeline-entry">
+        <div class="timeline-content">
+            <time class="date">October 14, 2025</time>
+            <h2 class="title"><a href="/2025/10/14/product-ownership-evolution.html">The Evolution of Product Ownership in Modern Tech</a></h2>
+            <div class="excerpt">
+                Reflecting on my journey as a Product Owner and how the role has evolved with modern development practices and tools.
+            </div>
+            <a href="/2025/10/14/product-ownership-evolution.html" class="read-more">Read More →</a>
+        </div>
+    </article>
+    
+</div>
+
+<style>
+.blog-timeline {
+    max-width: 800px;
+    margin: 2em auto;
+    position: relative;
+}
+
+.blog-timeline::before {
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #0E4E45;
+}
+
+.timeline-entry {
+    position: relative;
+    margin-bottom: 3em;
+    padding-left: 1em;
+}
+
+.timeline-entry::before {
+    content: '';
+    position: absolute;
+    left: -44px;
+    top: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #0E4E45;
+    border: 2px solid white;
+}
+
+.timeline-content {
+    background: white;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(14, 78, 69, 0.1);
+}
+
+.date {
+    display: block;
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+
+.title {
+    margin: 0 0 0.5em;
+    font-size: 1.6em;
+}
+
+.title a {
+    color: #0E4E45;
+    text-decoration: none;
+}
+
+.title a:hover {
+    color: #156b5f;
+}
+
+.excerpt {
+    color: #2C3E50;
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+.read-more {
+    color: #0E4E45;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+</style>
+
 <ul>
-  <li>Product Management</li>
   <li>Data Platforms</li>
   <li>Agile Leadership</li>
   <li>Cloud Technologies</li>
