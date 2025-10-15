@@ -98,6 +98,3 @@ permalink: /blog
     text-decoration: underline;
 }
 </style>
-- Data Platforms
-- Agile Leadership
-- Cloud Technologies
