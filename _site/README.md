@@ -1,68 +1,97 @@
-## João Capinha
+# João Capinha's Personal Website
 
-## Pitch
+A modern, responsive personal website built with Jekyll featuring smooth animations and easily editable content.
 
-Results-driven Scrum Product Owner with 6+ years of steering data platforms and
-backend systems from vision through delivery. 
-Expert at translating complex analytics requirements into prioritized backlogs, aligning global stakeholders, and coaching cross-functional teams to sprint-out high-value features. 
-Proven track record of boosting sprint velocity by 40%, migrating legacy mainframes to AWS at scale, and delivering data intensive applications.
-Recently moved to Paris and currently learning French. I'm looking for a new challenge at the intersection of product and technology.
+## 🚀 Quick Start
 
-## Experience
+### Local Development
+```bash
+# Install dependencies
+bundle install
 
-- **Data Product Owner, BMW Group**  
-    *January 2023 — July 2025*  
-    - Championed product vision and roadmap for a mission-critical backend ingesting 400K+ records/day, defining clear MVPs and KPIs that secured stakeholder buy-in across the world.
-    - Prioritized and refined the product backlog , resulting in a 70% increase in sprint delivery success over 3 years, and reducing feature lead time by 30%.
-    - Oversaw the end-to-end migration from a legacy mainframe application to an AWS-native data platform, coordinating across security, engineering, and business teams teams to hit roll-out features on schedule.
-    - Scaled the Scrum team from 11 to 20 members , establishing agile best practices, mentoring new team members , leading to continuous improvement. 
-    - Presented release demos and technical workshops onsite in Munich, accelerating cross-team adoption and earning “Outstanding Collaboration” from BMW stakeholders.
+# Build the site
+bundle exec jekyll build
 
-- **Data Engineer, BMW Group**  
-    *January 2021 — December 2023*  
-    - Built and maintained data streaming and batch pipelines to deliver internal REST APIs and dashboarding tools (CloudWatch, PowerBI) for operational and business teams for real-time vehicle telemetry.
-    - Introduced Apache Iceberg to optimize data lake metadata, slashing query times by 60% and driving users' satisfaction.
-    - Automated cloud infrastructure provisioning, feature tests and deployment with Terraform and GitHub Actions , following DevOps best practices , significantly reducing environment spin-up times and bugs during development and after releases.
+# Serve locally
+bundle exec jekyll serve --host 0.0.0.0 --port 4000
+```
 
-## Education
+The website will be available at: http://localhost:4000
 
-- **Master's Degree, Digital Business**  
-    Jönköping International Business School, 2019
-- **Bachelor's Degree, Marketing Management**  
-    ISCTE Business School, 2016
+## 📝 Editing Content
 
-## Skills
+The website uses Jekyll data files for easy content management. All content can be edited in the `_data/` directory:
 
-- **Product Strategy** 
-    - Vision & Roadmap Definition
-    - Stakeholder Alignment
-- **Communication** 
-    - User Story Mapping
-    - Executive Reporting
-    - Product Demos
-    - Pitches and Presentations
-- **Agile & Scrum Leadership** 
-    - Sprint Planning
-    - Backlog Refinement
-    - Release Planning
-- **Data Technologies** 
-    - Product Management
-- **Cloud & DevOps** 
-    - AWS (Glue, Lambda, ECS, DynamoDB)
-    - Terraform
-    - Automated Testing
-- **Analytics & Visualization** 
-    - PowerBI
-    - CloudWatch
-    - Kibana
-    - Figma
-- **Scaled Scrum Frameworks** 
-    - LeSS
-    - SAFe
-- **Scaled Scrum Frameworks** 
-    - LeSS
-    - SAFe
-- **Collaboration Tools** 
-    - Jira
-    - Confluence
-    - Figma
+### Home Page (`_data/home.yml`)
+- **Hero section**: Title and tagline
+- **Intro section**: Lead paragraph
+- **Highlights**: Feature cards with icons, titles, and descriptions
+- **Explore section**: Navigation cards
+
+### About Page (`_data/about.yml`)
+- **Welcome section**: Title, content, and profile image
+
+### Site Configuration (`_data/site.yml`)
+- **Site title and description**
+- **Navigation menu items**
+
+### Blog Posts
+- Located in `_posts/` directory
+- Use standard Jekyll front matter
+- Automatically styled with modern timeline design
+
+## 🎨 Styling
+
+- **Main CSS**: `assets/css/style.css`
+- **Color scheme**: Maintains the original green theme (#0E4E45)
+- **Animations**: Smooth transitions and hover effects
+- **Responsive**: Mobile-first design
+- **Typography**: Inter font family for modern look
+
+## 📁 File Structure
+
+```
+├── _data/                 # Content files (easily editable)
+│   ├── home.yml          # Home page content
+│   ├── about.yml         # About page content
+│   └── site.yml          # Site configuration
+├── _layouts/             # Jekyll layouts
+│   └── default.html      # Main layout template
+├── _posts/               # Blog posts
+├── assets/               # Static assets
+│   ├── css/             # Stylesheets
+│   └── images/          # Images
+├── index.md             # Home page
+├── about.md             # About page
+└── blog.md              # Blog listing page
+```
+
+## ✨ Features
+
+- **Dynamic Content**: Easy to edit via YAML data files
+- **Modern Design**: Clean, professional appearance with animations
+- **Responsive**: Works on all device sizes
+- **Fast Loading**: Optimized CSS and minimal dependencies
+- **SEO Friendly**: Proper meta tags and structure
+- **Accessible**: Semantic HTML and proper contrast ratios
+
+## 🔧 Customization
+
+### Colors
+Edit the CSS variables in `assets/css/style.css`:
+```css
+:root {
+  --primary-color: #0E4E45;
+  --primary-light: #156b5f;
+  --primary-lighter: #9FE2D9;
+  /* ... more variables */
+}
+```
+
+### Content
+Simply edit the YAML files in `_data/` to update any text, titles, or descriptions.
+
+### Adding New Pages
+1. Create a new `.md` file in the root directory
+2. Add the page to `_data/site.yml` navigation
+3. Use the `default` layout for consistency

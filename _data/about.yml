@@ -1,0 +1,7 @@
+title: "About Me"
+welcome:
+  title: "Welcome!"
+  content: "[Content coming soon...]"
+  image:
+    src: "/assets/images/profile.jpg"
+    alt: "João Capinha"
