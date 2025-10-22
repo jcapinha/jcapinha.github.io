@@ -1,0 +1,92 @@
+personal_info:
+  name: "João Capinha"
+  title: "Product Owner"
+  location: "Paris, France"
+  phone: "+33 (0) 6 09 92 37 79"
+  email: "capinha94@gmail.com"
+  linkedin: "LinkedIn"
+  linkedin_url: "https://www.linkedin.com/in/jcapinha/"
+
+summary: "Results-driven Scrum Product Owner with 6+ years of steering data platforms and backend systems from vision through delivery. Expert at translating complex analytics requirements into prioritized backlogs, aligning global stakeholders, and coaching cross-functional teams to sprint-out high-value features. Proven track record of boosting sprint velocity by 40%, migrating legacy mainframes to AWS at scale, and delivering data intensive applications."
+
+skills:
+  product_strategy:
+    title: "Product Strategy"
+    items: ["Vision & Roadmap Definition", "Stakeholder Alignment"]
+  
+  communication:
+    title: "Communication"
+    items: ["User Story Mapping", "Executive Reporting", "Product Demos and Presentations"]
+  
+  agile_scrum:
+    title: "Agile & Scrum Leadership"
+    items: ["Sprint Planning", "Backlog Refinement", "Release Planning"]
+  
+  data_technologies:
+    title: "Data Technologies"
+    items: ["Python", "SQL", "Apache Kafka", "Apache Iceberg"]
+  
+  cloud_devops:
+    title: "Cloud & DevOps"
+    items: ["AWS (Glue, Lambda, ECS, DynamoDB)", "Terraform", "Automated Testing"]
+  
+  analytics_visualization:
+    title: "Analytics & Visualization"
+    items: ["PowerBI", "CloudWatch", "Kibana", "Figma"]
+  
+  scaled_frameworks:
+    title: "Scaled Scrum Frameworks"
+    items: ["SAFe", "LeSS"]
+  
+  collaboration_tools:
+    title: "Collaboration Tools"
+    items: ["Jira", "Confluence"]
+
+languages:
+  - name: "Portuguese"
+    level: 100
+  - name: "English"
+    level: 100
+  - name: "French"
+    level: 60
+
+experience:
+  - company: "BMW Group"
+    position: "Data Product Owner"
+    period: "JAN 2023 – JUL 2025"
+    achievements:
+      - "Defined product vision and built a prioritized roadmap for a backend database and REST API solution, hosted on AWS, by defining KPIs to measure success."
+      - "Prioritized and refined the backlog, increasing stakeholder satisfaction by driving a 70% increase in sprint delivery over three years and reducing feature lead time by 30%."
+      - "Facilitated agile ceremonies, managed and scaled a Scrum team from 11 to 20, and mentored new members to embed best practices and continuous improvement."
+      - "Collected business requirements and translated them into actionable user stories and acceptance criteria, collaborating closely with architects, data engineers and UX designers to guide technical decisions."
+      - "Owned release communications and technical workshops (onsite in Munich), and managed rollout plans to drive adoption and stakeholder alignment."
+  
+  - company: "BMW Group"
+    position: "Data Engineer"
+    period: "JAN 2021 – DEC 2023"
+    achievements:
+      - "Built and maintained data streaming and batch pipelines to deliver internal REST APIs and dashboarding tools (CloudWatch, PowerBI) for operational and business teams for real-time vehicle telemetry."
+      - "Introduced Apache Iceberg to optimize data lake metadata, slashing query times by 60% and driving users' satisfaction."
+      - "Automated cloud infrastructure provisioning, feature tests and deployment with Terraform and GitHub Actions, following DevOps best practices, significantly reducing environment spin-up times and bugs during development and after releases."
+  
+  - company: "Altran (current Capgemini)"
+    position: "Data Engineer Consultant"
+    period: "OCT 2019 – DEC 2020"
+    achievements:
+      - "Developed and launched a SaaS insights dashboard platform for Vodafone customers, creating a new revenue stream for the company."
+      - "Automated ETL workflows with AWS Glue and NiFi for processing telecom data stored in S3."
+      - "Led a data governance PoC using Collibra and GCP, helping define scalable data quality and catalog practices."
+
+education:
+  - degree: "Master of Sciences Degree, Digital Business"
+    institution: "Jönköping International Business School, Jönköping University"
+    period: "JAN 2017 – JAN 2019"
+  
+  - degree: "Bachelor's degree, Marketing Management"
+    institution: "ISCTE Business School, Instituto Universitário de Lisboa"
+    period: "JAN 2012 – JAN 2016"
+
+certifications:
+  - "PSPO I"
+  - "LeSS Certified Practitioner"
+  - "AWS Cloud Practitioner"

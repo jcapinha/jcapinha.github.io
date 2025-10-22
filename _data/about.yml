@@ -1,0 +1,7 @@
+title: "About Me"
+welcome:
+  title: "Welcome!"
+  content: "From the beginning, when I studied Marketing Management, I was always curious about how things worked—especially where the data that informed most marketing decisions came from and how it could be gathered. This curiosity led me down the path of learning about data analysis, becoming self-taught in Python, and ultimately starting a career in data. What started as a simple question about the numbers behind marketing campaigns evolved into a passion for transforming raw data into actionable insights that drive business decisions."
+  image:
+    src: "/assets/images/profile.jpg"
+    alt: "João Capinha"

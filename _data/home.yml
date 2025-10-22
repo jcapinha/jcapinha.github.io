@@ -1,0 +1,30 @@
+hero:
+  title: "Hello, I'm João Capinha"
+  tagline: "Bridging the gap between product vision and technical excellence"
+
+intro:
+  lead: "As a Product Owner with a deep technical background, I transform complex data challenges into user-centric solutions. Currently based in Paris, I bring 6+ years of experience in steering data platforms and backend systems from concept to reality."
+
+explore:
+  title: "Explore More"
+  cards:
+    - icon: "👋"
+      title: "About Me"
+      description: "Get to know me beyond the professional realm – my journey, interests, and what drives me in both technology and life."
+      link_text: "👋 About Me"
+      url: "/about"
+    - icon: "💼"
+      title: "My CV"
+      description: "View my professional experience, skills, and achievements in product ownership and data engineering."
+      link_text: "💼 My CV"
+      url: "/cv"
+    - icon: "✍️"
+      title: "Blog & Insights"
+      description: "Read my thoughts on product management, data engineering, and technology trends through articles and case studies."
+      link_text: "✍️ Blog & Insights"
+      url: "/blog"
+    - icon: "📞"
+      title: "Contacts"
+      description: "Get in touch with me through various channels. I'm always interested in discussing new opportunities and projects."
+      link_text: "📞 Contacts"
+      url: "/contacts"
