@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | {{ site.data.site.title }}</title>
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,9 +14,9 @@
     <div class="wrapper">
         <nav class="sidebar">
             <ul>
-                {% for item in site.data.site.navigation %}
-                <li><a href="{{ item.url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.name }}</a></li>
-                {% endfor %}
+                <li><a href="/" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+                <li><a href="/about" {% if page.url == '/about' %}class="active"{% endif %}>About Me</a></li>
+                <li><a href="/blog" {% if page.url == '/blog' %}class="active"{% endif %}>Blog</a></li>
             </ul>
         </nav>
         <div class="content">
