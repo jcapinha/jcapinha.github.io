@@ -14,9 +14,9 @@
     <div class="wrapper">
         <nav class="sidebar">
             <ul>
-                <li><a href="/" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
-                <li><a href="/about" {% if page.url == '/about' %}class="active"{% endif %}>About Me</a></li>
-                <li><a href="/blog" {% if page.url == '/blog' %}class="active"{% endif %}>Blog</a></li>
+                {% for item in site.data.site.navigation %}
+                <li><a href="{{ item.url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.name }}</a></li>
+                {% endfor %}
             </ul>
         </nav>
         <div class="content">
