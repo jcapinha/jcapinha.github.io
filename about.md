@@ -124,6 +124,22 @@ title: About Me
         </div>
     </div>
 
+    <!-- Hobbies & Life Outside Work Section -->
+    <div class="story-section hobbies-section">
+        <div class="section-header">
+            <h2>{{ site.data.about.hobbies.title }}</h2>
+            <h3>{{ site.data.about.hobbies.subtitle }}</h3>
+        </div>
+        <div class="section-content">
+            <p>{{ site.data.about.hobbies.content }}</p>
+            <ul class="highlights">
+                {% for highlight in site.data.about.hobbies.highlights %}
+                <li>{{ highlight }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
     </div>
     
 </div>

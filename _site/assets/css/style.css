@@ -150,6 +150,8 @@ body { margin: 0; padding: 0; font-family: "Inter", "Helvetica Neue", -apple-sys
 
 .values-section { animation-delay: 1.2s; }
 
+.hobbies-section { animation-delay: 1.4s; }
+
 /* Image Container (reused from original) */
 .image-container { position: relative; padding: 20px; background: var(--white); border-radius: var(--border-radius); box-shadow: 0 15px 40px var(--shadow-light); transition: var(--transition); }
 
