@@ -4,9 +4,9 @@ title: "About Me"
 hero:
   title: "Welcome!"
   tagline: "From a curious marketing student to a technical leader who bridges business and tech"
-  content: "I've grown in a small portuguese village, but never was capable of sitting still. I've always strived to reach new heights, to prove to myself what I'm capable of. I've discovered that one of my greatest satisfaction comes from helping teams grow and succeed together. I'm someone who loves to know new people, and somehow can get even the shyest person to open up. My mom says it's my eyes. My friends say it's my Golden Retriever energy. You decide. I'm currently looking for new challenges, and new horizons, and I'm open to new opportunities in the areas of product management, data engineering, and team leadership.
+  content: "I grew up in a small Portuguese village, but I never was capable of sitting still. I've always strived to reach new heights, to prove to myself what I'm capable of. I've discovered that one of my greatest satisfactions comes from helping teams grow and succeed together. I'm someone who loves meeting new people, and somehow can get even the shyest person to open up. My mom says it's my eyes. My friends say it's my Golden Retriever energy. You decide. I'm currently looking for new challenges, and new horizons, and I'm open to new opportunities in the areas of product management, data engineering, and team leadership.
   
-  Understading the 'WHY' behind everything, whether it's people, technology, or anything in between, together with my constant drive for self-improvement serves as a basis for all I do and am."
+  Understanding the 'WHY' behind everything, whether it's people, technology, or anything in between, together with my constant drive for self-improvement serves as a basis for all I do and am."
   image:
     src: "/assets/images/profile.jpg"
     alt: "João Capinha"
@@ -20,13 +20,13 @@ journey:
     - "The Beginning: Self-taught Python programmer and data engineer"
     - "Stayed close to code: Despite not coding daily recently, I remained deeply involved in architecture discussions and decisions for tech-intensive backend systems"
     - "Ready to return: My strong technical foundation might be a bit rusty, but I'm ready to put my hands back to work when needed"
-    - "Natural evolution: Even as an engineer, I was always close to the business andproduct development side of things, which led to my promotion to a Product Owner role"
+    - "Natural evolution: Even as an engineer, I was always close to the business and product development side of things, which led to my promotion to a Product Owner role"
 
 # Curiosity & Deep Dives Section
 curiosity:
   title: "Curiosity & Deep Dives"
   subtitle: "Tech Enthusiast"
-  content: "When it comes to technology applied to things I love, I easily get into deep rabbit holes, trying to understand the technical details as much as I can. For example, Quantum Computing. Its counter-intuitive properties like entanglement and superposition, have sent me down countless learning paths that I genuinely enjoy exploring. Despite how confusing it can get."
+  content: "When it comes to technology applied to things I love, I easily get into deep rabbit holes, trying to understand the technical details as much as I can. For example, Quantum Computing. Its counter-intuitive properties like entanglement and superposition have sent me down countless learning paths that I genuinely enjoy exploring. Despite how confusing it can get."
   highlights:
     - "Lifelong learner: I love learning new things, especially when technology applies to my personal interests"
     - "Natural ability: I have a natural ability to understand and explain complex, counter-intuitive concepts"
@@ -54,14 +54,14 @@ leadership:
     - "Formal training: I completed 'Facilitator' program for career planning and 'Brave Conversations' for difficult team dynamics"
     - "Conflict resolution: I use a structured, transparent approach to team disagreements"
     - "Feedback culture: I proactively cultivate impactful feedback within teams"
-    - "Psychological safety: I focus on creating environments where people can be their best selves emphasizing team well-being and psychological safety"
+    - "Psychological safety: I focus on creating environments where people can be their best selves, emphasizing team well-being and psychological safety"
   blog_reference: "Read more about my leadership development journey (blog post coming soon)"
 
 # Communication as a Superpower Section
 communication:
   title: "Communication as a Superpower"
   subtitle: "Bridging Technical & Business"
-  content: "Like I mentioned before, I'm naturally good at translating and simplifying complex technical concepts into the key aspects that business-focused stakeholders actually care about and can understand. In past projects, over time, I would become the main point of contact between development part and the business side of things, which I found both challenging and rewarding."
+  content: "Like I mentioned before, I'm naturally good at translating and simplifying complex technical concepts into the key aspects that business-focused stakeholders actually care about and can understand. In past projects, over time, I would become the main point of contact between the development side and the business side of things, which I found both challenging and rewarding."
   highlights:
     - "Natural talent: Even as a developer, I became the go-to person for stakeholder communication"
     - "Structured methodology: I use a clear approach of Problem to Capability to Benefit to Proof Point"
@@ -87,6 +87,6 @@ hobbies:
   subtitle: "Adventures, Music & Questionable Life Choices"
   content: "I'm a firm believer that, especially nowadays, being away from social media and away from the screen is the type of detox needed to keep some sanity. For me, that means getting outdoors, making music, or occasionally making questionable decisions like signing up for a half marathon when you've always hated running. Great, I know."
   highlights:
-    - "Outdoor Adventures: Trail hiking and climbing/bouldering, are usually my go-to activities. Always love to measure if the view is worth the effort, and there's nothing like the adrenalin rush of the mental question 'I tied the knots correctly, right?' at the worst possible moment."
-    - "The Running Saga: Started as a challenge because apparently hating something is a great reason to commit to 21 kilometers. December's half marathon will either be my proudest moment or my most elaborate self-trolling. Stay tuned. Depending on how it goes, a triatlon might be next."
-    - "Music Creation: I can play guitar, bass, piano, and Portuguese concertina (very known by all portuguese grandmas). None of them particularly well, but I can play them all. It's something. Currently diving into music production, which I'm starting to realise also includes a bit too much time in front of the computer."
+    - "Outdoor Adventures: Trail hiking and climbing/bouldering are usually my go-to activities. Always love to measure if the view is worth the effort, and there's nothing like the adrenaline rush of the mental question 'I tied the knots correctly, right?' at the worst possible moment."
+    - "The Running Saga: Started as a challenge because apparently hating something is a great reason to commit to 21 kilometers. December's half marathon will either be my proudest moment or my most elaborate self-trolling. Stay tuned. Depending on how it goes, a triathlon might be next."
+    - "Music Creation: I can play guitar, bass, piano, and Portuguese concertina (very known by all Portuguese grandmas). None of them particularly well, but I can play them all. It's something. Currently diving into music production, which I'm starting to realise also includes a bit too much time in front of the computer."
