@@ -1,9 +1,9 @@
 hero:
-  title: "Hello, I'm João Capinha"
-  tagline: "Bridging the gap between product vision and technical excellence"
+  title: "Welcome to my page!"
+  tagline: "My name is João Capinha and this website is a new experience for me and is currently a work in progress. It's a place to share my journey, my thoughts, and my projects."
 
 intro:
-  lead: "As a Product Owner with a deep technical background, I transform complex data challenges into user-centric solutions. Currently based in Paris, I bring 6+ years of experience in steering data platforms and backend systems from concept to reality."
+  lead: "As a Data Engineer turned Product Owner, I have a deep technical background and I transform complex data challenges into user-centric solutions. After taking a break from my career, I moved to Paris where I'm currently looking for a new challenge. I'm bringing almost 7 years of experience in steering data platforms, managing development teams and delivering complex backend systems."
 
 explore:
   title: "Explore More"
