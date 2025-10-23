@@ -87,13 +87,15 @@ body { margin: 0; padding: 0; font-family: "Inter", "Helvetica Neue", -apple-sys
 
 /* About Page Styles - New Story-Flow Layout with Fixed Image */
 /* Fixed Image on Right Side */
-.about-fixed-image { position: fixed; right: 3em; top: 50%; transform: translateY(-50%); width: 320px; z-index: 10; animation: fadeIn 1s ease-out; }
+.about-fixed-image { position: fixed; right: 3em; top: 8em; width: 320px; z-index: 10; animation: fadeInFixed 1s ease-out both; }
 
+@keyframes fadeInFixed { from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); } }
 /* Scrollable Content Area (Left Side) */
 .about-scrollable-content { max-width: calc(100% - 400px); margin-right: auto; padding-right: 2em; }
 
 /* Hero Section */
-.about-hero { margin: 0 0 2.5em; animation: slideInUp 0.8s ease-out; }
+.about-hero { margin: 0 0 2.5em; animation: slideInUp 0.8s ease-out 0.2s both; }
 
 .about-hero h1 { color: var(--primary-color); font-size: 2.8em; margin-bottom: 0.4em; font-weight: 700; line-height: 1.2; background: linear-gradient(135deg, var(--primary-color), var(--primary-light)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
 
@@ -105,7 +107,7 @@ body { margin: 0; padding: 0; font-family: "Inter", "Helvetica Neue", -apple-sys
 .story-sections { max-width: 100%; display: flex; flex-direction: column; gap: 2em; }
 
 /* Individual Story Section */
-.story-section { background: var(--white); border-radius: var(--border-radius); box-shadow: 0 8px 30px var(--shadow-light); border: 1px solid rgba(14, 78, 69, 0.05); padding: 2.5em; position: relative; overflow: hidden; transition: var(--transition); animation: slideInUp 0.8s ease-out; }
+.story-section { background: var(--white); border-radius: var(--border-radius); box-shadow: 0 8px 30px var(--shadow-light); border: 1px solid rgba(14, 78, 69, 0.05); padding: 2.5em; position: relative; overflow: hidden; transition: var(--transition); animation: slideInUp 0.8s ease-out both; }
 
 .story-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary-color), var(--primary-light)); transform: scaleX(0); transition: transform 0.3s ease; }
 
@@ -138,19 +140,19 @@ body { margin: 0; padding: 0; font-family: "Inter", "Helvetica Neue", -apple-sys
 .blog-reference p { margin: 0; color: var(--text-medium); font-style: italic; }
 
 /* Section-specific styling */
-.journey-section { animation-delay: 0.2s; }
+.journey-section { animation-delay: 0.4s; }
 
-.curiosity-section { animation-delay: 0.4s; }
+.curiosity-section { animation-delay: 0.6s; }
 
-.new-horizons-section { animation-delay: 0.6s; }
+.new-horizons-section { animation-delay: 0.8s; }
 
-.leadership-section { animation-delay: 0.8s; }
+.leadership-section { animation-delay: 1.0s; }
 
-.communication-section { animation-delay: 1.0s; }
+.communication-section { animation-delay: 1.2s; }
 
-.values-section { animation-delay: 1.2s; }
+.values-section { animation-delay: 1.4s; }
 
-.hobbies-section { animation-delay: 1.4s; }
+.hobbies-section { animation-delay: 1.6s; }
 
 /* Image Container (reused from original) */
 .image-container { position: relative; padding: 20px; background: var(--white); border-radius: var(--border-radius); box-shadow: 0 15px 40px var(--shadow-light); transition: var(--transition); }
