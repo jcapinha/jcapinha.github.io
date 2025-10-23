@@ -1,7 +1,81 @@
 title: "About Me"
-welcome:
+
+# Hero Introduction Section
+hero:
   title: "Welcome!"
-  content: "From the beginning, when I studied Marketing Management, I was always curious about how things worked—especially where the data that informed most marketing decisions came from and how it could be gathered. This curiosity led me down the path of learning about data analysis, becoming a self-taught programmer in Python, and ultimately starting a career in data. What started as a simple question about the numbers behind marketing campaigns evolved into a passion for transforming raw data into actionable insights that drive business decisions. I am very curious and I'm passionate about technology in general, and data in particular. But most importantly I'm driven by a desire to make develop a team of people to be their best selves and to help them achieve their goals, weather personal or professional."
+  tagline: "From curious marketing student to technical leader who bridges worlds"
+  content: "I'm someone who loves connecting technical depth with business value, and I've discovered that my greatest satisfaction comes from helping teams grow and succeed together."
   image:
     src: "/assets/images/profile.jpg"
     alt: "João Capinha"
+
+# The Journey Section
+journey:
+  title: "The Journey"
+  subtitle: "From Marketing to Data"
+  content: "When I studied Marketing Management, I was always curious about how things worked, especially where the data that informed most marketing decisions came from and how it could be gathered. This curiosity led me down an unconventional path of teaching myself Python, diving into data engineering, and eventually building a career in data, even when close people like my parents questioned whether I was straying from what I studied for."
+  highlights:
+    - "Self-taught Python programmer and data engineer"
+    - "Stayed close to code: Despite not coding daily recently, I remained deeply involved in architecture decisions for tech-intensive backend systems"
+    - "Ready to return: My strong technical foundation is intact, and I'm ready to put my hands back to work with some refreshing needed"
+    - "Natural evolution: Even as an engineer, I always kept a foot in product development, which led to my Product Owner role"
+
+# Curiosity & Deep Dives Section
+curiosity:
+  title: "Curiosity & Deep Dives"
+  subtitle: "Tech Enthusiast"
+  content: "When it comes to technology applied to things I love, I easily get into deep rabbit holes, trying to understand the technical details as much as I can. Quantum computing, for instance, with its counter-intuitive properties like entanglement and superposition, has sent me down countless learning paths that I genuinely enjoy exploring."
+  highlights:
+    - "I love learning new things, especially when technology applies to my personal interests"
+    - "I have a natural ability to understand and explain complex, counter-intuitive concepts"
+    - "Cross-domain learning: My interests span from data engineering to quantum computing to pharma applications"
+    - "Making complexity simple: I enjoy translating difficult technical concepts for any audience"
+
+# Seeking New Horizons Section
+new_horizons:
+  title: "Seeking New Horizons"
+  subtitle: "Thriving in New Environments"
+  content: "I'm actively seeking opportunities in new industries because I genuinely thrive in unfamiliar challenges. After working in established big companies, I had a taste for building products from the ground up, but I couldn't shake the feeling that I wasn't having a direct impact on improving people's lives."
+  highlights:
+    - "I'm actively seeking opportunities in new industries"
+    - "I have a strong desire to work on products that directly improve people's lives, inspired by my girlfriend's work in pharma"
+    - "Startup appeal: I'm drawn to smaller, faster-moving environments rather than big corporate bureaucracy"
+    - "Adaptability proof: I consistently receive positive feedback from all stakeholders about my adaptability"
+    - "High impact focus: I want my contributions to directly shape company trajectory"
+
+# Leadership & Mentorship Section
+leadership:
+  title: "Leadership & Mentorship"
+  subtitle: "Discovering Team Development"
+  content: "My transition to Product Owner revealed a genuine passion for developing people that I didn't know I had. I completed months-long programs to become what we called a 'Facilitator,' helping colleagues across the company create well-structured career plans aligned with their life goals. This experience taught me deep active listening and how to uncover underlying motivations in a way that truly helps people grow."
+  highlights:
+    - "Formal training: I completed 'Facilitator' program for career planning and 'Brave Conversations' for difficult team dynamics"
+    - "Conflict resolution: I use a structured, transparent approach to team disagreements"
+    - "Feedback culture: I proactively cultivate impactful feedback within teams"
+    - "Psychological safety: I focus on creating environments where people can be their best selves"
+    - "Core value: Care is my primary focus, emphasizing team well-being and psychological safety"
+  blog_reference: "Read more about my leadership development journey (blog post coming soon)"
+
+# Communication as a Superpower Section
+communication:
+  title: "Communication as a Superpower"
+  subtitle: "Bridging Technical & Business"
+  content: "Since I came from a business background, I discovered I was naturally good at translating and simplifying complex technical concepts into the key aspects that business-focused stakeholders actually care about and can understand. Over time, I became the main point of contact between development teams and stakeholders, which I found both challenging and rewarding."
+  highlights:
+    - "Natural talent: Even as a developer, I became the go-to person for stakeholder communication"
+    - "Structured methodology: I use a clear approach of Problem to Capability to Benefit to Proof Point"
+    - "Audience adaptation: I can switch hats seamlessly between technical and business discussions"
+    - "Presentation excellence: I became the go-to person for demos, C-level presentations, and product launches"
+    - "Career catalyst: This skill directly contributed to my promotion from engineer to Product Owner"
+
+# Values & Impact Section
+values:
+  title: "Values & Impact"
+  subtitle: "What Drives Me"
+  content: "My core value is 'Care,' focusing on team well-being and psychological safety. I believe transparency is essential for project success and trust, and I have a growth mindset, always seeking to improve. Most importantly, I want to work on products that meaningfully improve people's lives."
+  highlights:
+    - "Core value: Care is my primary focus, emphasizing team well-being and psychological safety"
+    - "Transparency: I believe it's essential for project success and stakeholder trust"
+    - "Continuous learning: I have a growth mindset and am always seeking to improve"
+    - "Meaningful work: I have a strong desire to work on products that improve people's lives"
+    - "Values-driven: I'm not just doing a job, but working on mission-oriented projects"
