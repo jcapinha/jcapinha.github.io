@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: post
 title: "The Evolution of Product Ownership in Modern Tech"
 excerpt: "Reflecting on my journey as a Product Owner and how the role has evolved with modern development practices and tools."
 ---
-
-# The Evolution of Product Ownership in Modern Tech
 
 As a Product Owner at BMW Group, I've witnessed firsthand how the role has evolved with modern development practices. Here's my perspective on the changing landscape of product ownership in tech.
 
