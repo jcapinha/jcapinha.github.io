@@ -14,15 +14,60 @@
     <div class="wrapper">
         <nav class="sidebar">
             <ul>
-                {% for item in site.data.site.navigation %}
-                <li><a href="{{ item.url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.name }}</a></li>
-                {% endfor %}
+                <li><a href="/" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+                <li><a href="/about" {% if page.url == '/about' %}class="active"{% endif %}>About Me</a></li>
+                <li><a href="/cv" {% if page.url == '/cv' %}class="active"{% endif %}>CV</a></li>
+                <li><a href="/blog" {% if page.url == '/blog' %}class="active"{% endif %}>Blog</a></li>
+                <li><a href="/contacts" {% if page.url == '/contacts' %}class="active"{% endif %}>Contacts</a></li>
             </ul>
+            
+            <div class="language-dropdown">
+                <button class="language-toggle" onclick="toggleLanguageDropdown(event)">
+                    <span class="globe-icon">🌐</span>
+                    <span class="current-lang">English</span>
+                    <span class="dropdown-arrow">▼</span>
+                </button>
+                <div class="language-menu" id="languageMenu">
+                    <div class="lang-item active">
+                        <span>English</span>
+                    </div>
+                    <div class="lang-item disabled" title="French version coming soon!">
+                        <span>Français</span>
+                        <span class="soon-tag">Soon</span>
+                    </div>
+                </div>
+            </div>
         </nav>
         <div class="content">
             <h1>{{ page.title }}</h1>
             {{ content }}
         </div>
     </div>
+    
+    <script>
+        function toggleLanguageDropdown(event) {
+            event.stopPropagation();
+            const menu = document.getElementById('languageMenu');
+            const arrow = event.currentTarget.querySelector('.dropdown-arrow');
+            
+            if (menu.classList.contains('show')) {
+                menu.classList.remove('show');
+                arrow.style.transform = 'rotate(0deg)';
+            } else {
+                menu.classList.add('show');
+                arrow.style.transform = 'rotate(180deg)';
+            }
+        }
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function() {
+            const menu = document.getElementById('languageMenu');
+            const arrow = document.querySelector('.dropdown-arrow');
+            if (menu.classList.contains('show')) {
+                menu.classList.remove('show');
+                if (arrow) arrow.style.transform = 'rotate(0deg)';
+            }
+        });
+    </script>
 </body>
 </html>

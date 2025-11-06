@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: default
 title: "Building Scalable Data Pipelines on AWS: Lessons Learned"
 excerpt: "In this post, I share my experience building and optimizing data pipelines on AWS, including best practices for performance, cost optimization, and maintainability."
 ---
+
+# Building Scalable Data Pipelines on AWS: Lessons Learned
 
 Over the past few years working with BMW Group, I've had the opportunity to work on several large-scale data engineering projects. In this post, I'll share some key insights and lessons learned from building data pipelines on AWS.
 
