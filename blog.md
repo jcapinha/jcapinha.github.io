@@ -12,7 +12,7 @@ permalink: /blog
         <div class="excerpt">
             {{ post.excerpt }}
         </div>
-        <a href="{{ post.url }}" class="read-more">Read More →</a>
+        <a href="{{ post.url }}" class="read-more">Read More</a>
     </article>
     {% endfor %}
 </div>

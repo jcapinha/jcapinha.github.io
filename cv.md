@@ -5,30 +5,39 @@ permalink: /cv
 ---
 
 <div class="cv-container">
-    <div class="cv-sidebar">
+    <!-- Sidebar with Profile and Skills -->
+    <aside class="cv-sidebar">
+        <!-- Profile Section -->
         <div class="profile-section">
             <div class="profile-image">
-                <img src="/assets/images/profile.jpg" alt="João Capinha">
+                <img src="{{ site.data.about.hero.image.src }}" alt="{{ site.data.cv.personal_info.name }}">
             </div>
-            <h1 class="name">{{ site.data.cv.personal_info.name }}</h1>
-            <h2 class="title">{{ site.data.cv.personal_info.title }}</h2>
+            <h2 class="name">{{ site.data.cv.personal_info.name }}</h2>
+            <p class="title">{{ site.data.cv.personal_info.title }}</p>
         </div>
-        
-        
-        <div class="skills-section">
-            <h3>Skills</h3>
-            {% for skill_category in site.data.cv.skills %}
-            <div class="skill-category">
-                <h4>{{ skill_category[1].title }}</h4>
-                <ul>
-                    {% for item in skill_category[1].items %}
-                    <li>{{ item }}</li>
-                    {% endfor %}
-                </ul>
+
+        <!-- Contact Section -->
+        <div class="contact-section">
+            <h3>Contact</h3>
+            <div class="contact-item">
+                <strong>Location</strong>
+                {{ site.data.cv.personal_info.location }}
             </div>
-            {% endfor %}
+            <div class="contact-item">
+                <strong>Phone</strong>
+                {{ site.data.cv.personal_info.phone }}
+            </div>
+            <div class="contact-item">
+                <strong>Email</strong>
+                <a href="mailto:{{ site.data.cv.personal_info.email }}">{{ site.data.cv.personal_info.email }}</a>
+            </div>
+            <div class="contact-item">
+                <strong>LinkedIn</strong>
+                <a href="{{ site.data.cv.personal_info.linkedin_url }}" target="_blank">{{ site.data.cv.personal_info.linkedin }}</a>
+            </div>
         </div>
-        
+
+        <!-- Languages Section -->
         <div class="languages-section">
             <h3>Languages</h3>
             {% for language in site.data.cv.languages %}
@@ -40,15 +49,95 @@ permalink: /cv
             </div>
             {% endfor %}
         </div>
-    </div>
-    
-    <div class="cv-main">
-        <div class="summary-section">
+
+        <!-- Skills Section -->
+        <div class="skills-section">
+            <h3>Skills</h3>
+            
+            <div class="skill-category">
+                <h4>{{ site.data.cv.skills.product_strategy.title }}</h4>
+                <ul>
+                    {% for item in site.data.cv.skills.product_strategy.items %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h4>{{ site.data.cv.skills.communication.title }}</h4>
+                <ul>
+                    {% for item in site.data.cv.skills.communication.items %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h4>{{ site.data.cv.skills.agile_scrum.title }}</h4>
+                <ul>
+                    {% for item in site.data.cv.skills.agile_scrum.items %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h4>{{ site.data.cv.skills.data_technologies.title }}</h4>
+                <ul>
+                    {% for item in site.data.cv.skills.data_technologies.items %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h4>{{ site.data.cv.skills.cloud_devops.title }}</h4>
+                <ul>
+                    {% for item in site.data.cv.skills.cloud_devops.items %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h4>{{ site.data.cv.skills.analytics_visualization.title }}</h4>
+                <ul>
+                    {% for item in site.data.cv.skills.analytics_visualization.items %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h4>{{ site.data.cv.skills.scaled_frameworks.title }}</h4>
+                <ul>
+                    {% for item in site.data.cv.skills.scaled_frameworks.items %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h4>{{ site.data.cv.skills.collaboration_tools.title }}</h4>
+                <ul>
+                    {% for item in site.data.cv.skills.collaboration_tools.items %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="cv-main">
+        <!-- Summary Section -->
+        <section class="summary-section">
             <h2>Summary</h2>
             <p>{{ site.data.cv.summary }}</p>
-        </div>
-        
-        <div class="experience-section">
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience-section">
             <h2>Experience and Achievements</h2>
             {% for job in site.data.cv.experience %}
             <div class="job-item">
@@ -64,26 +153,28 @@ permalink: /cv
                 </ul>
             </div>
             {% endfor %}
-        </div>
-        
-        <div class="education-section">
+        </section>
+
+        <!-- Education Section -->
+        <section class="education-section">
             <h2>Education</h2>
-            {% for education in site.data.cv.education %}
+            {% for edu in site.data.cv.education %}
             <div class="education-item">
-                <h3>{{ education.degree }}</h3>
-                <p class="institution">{{ education.institution }}</p>
-                <span class="period">{{ education.period }}</span>
+                <h3>{{ edu.degree }}</h3>
+                <span class="institution">{{ edu.institution }}</span>
+                <span class="period">{{ edu.period }}</span>
             </div>
             {% endfor %}
-        </div>
-        
-        <div class="certifications-section">
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications-section">
             <h2>Certifications</h2>
             <div class="certifications-list">
                 {% for cert in site.data.cv.certifications %}
                 <span class="certification">{{ cert }}</span>
                 {% endfor %}
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
 </div>
